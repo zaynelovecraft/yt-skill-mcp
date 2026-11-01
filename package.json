@@ -1,14 +1,19 @@
 {
   "name": "yt-skill-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MCP server & CLI that extracts YouTube transcripts and compiles them into structured Cursor SKILL.md workflows",
   "type": "module",
   "bin": {
-    "yt-skill": "./dist/cli.js",
-    "yt-skill-mcp": "./dist/mcp.js"
+    "yt-skill-mcp": "./dist/cli.js",
+    "yt-skill-mcp-server": "./dist/mcp.js"
+  },
+  "files": ["dist", "src", "tsconfig.json"],
+  "engines": {
+    "node": ">=18"
   },
   "scripts": {
     "build": "tsc",
+    "prepare": "tsc",
     "start": "node dist/mcp.js"
   },
   "keywords": ["mcp", "model-context-protocol", "cursor", "claude-code", "youtube", "ai-agents", "skills"],
