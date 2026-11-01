@@ -1,0 +1,25 @@
+{
+  "name": "yt-skill-mcp",
+  "version": "0.1.0",
+  "description": "MCP server & CLI that extracts YouTube transcripts and compiles them into structured Cursor SKILL.md workflows",
+  "type": "module",
+  "bin": {
+    "yt-skill": "./dist/cli.js",
+    "yt-skill-mcp": "./dist/mcp.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/mcp.js"
+  },
+  "keywords": ["mcp", "model-context-protocol", "cursor", "claude-code", "youtube", "ai-agents", "skills"],
+  "author": "Zayne Lovecraft",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
