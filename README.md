@@ -1,5 +1,7 @@
 # yt-skill-mcp 🎬 -> 🧠
 
+[![CI](https://github.com/zaynelovecraft/yt-skill-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/zaynelovecraft/yt-skill-mcp/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/zaynelovecraft/yt-skill-mcp)](https://github.com/zaynelovecraft/yt-skill-mcp/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Case Study](https://img.shields.io/badge/Case_Study-zaynelovecraft.com-6366f1)](https://www.zaynelovecraft.com/work/yt-skill-mcp)
 [![Article](https://img.shields.io/badge/Deep_Dive-Read_Post-10b981)](https://www.zaynelovecraft.com/articles/building-custom-mcp-servers-typescript-youtube-skills)
